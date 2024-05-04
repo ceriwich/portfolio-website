@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 
+import "./Nav.css";
+
 function Nav(props){
     const [currNav, setCurrNav] = useState('#');
     return (

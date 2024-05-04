@@ -1,0 +1,48 @@
+@import '/src/data/styles.css';
+
+nav{
+    /* sticky so it remains at the top no matter what*/
+    position: sticky;
+    top: .5rem;
+    /* left: 0; */
+    left: 50%;
+    /* bottom: 2rem; */
+    position: fixed;
+    transform: translateX(-50%);
+    /* z-idx with a value of 1 make sure the navbar displays over any other element on the webpage*/
+    /* z-index: 1; */
+    z-index: 2;
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    justify-content: space-between;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    /* padding: 1.5rem 3.5rem; */
+    padding: 0.7rem 1.7rem;
+    /* background-color: var(--bg-color);*/
+    background: rgba(0, 0, 0, 0.3); 
+    width: max-content; 
+    /*get the width of it's content*/
+    /*applies shadow to the bottom of the navbar*/
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  nav h1{
+    color: var(--primary-color);
+  }
+  nav a{
+    color: var(--primary-color);
+    transition: var(--transition);
+  }
+  nav a:hover{
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+  }
+  nav ul{
+    display: flex;
+    gap: 1.9rem;
+  }
+  nav ul li{
+    font-weight: var(--bold-font);
+  }
