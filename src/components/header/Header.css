@@ -1,0 +1,12 @@
+@import '/src/data/styles.css';
+
+header{
+    align-items: center;
+    margin-top: 10%;
+    display: flex;
+    padding: 0.7rem 1.7rem;
+}
+header div{
+    margin-left: auto;
+    margin-right: auto;
+}

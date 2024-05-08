@@ -1,17 +1,18 @@
 import React from 'react';
+import './About.css';
 // import { useState } from 'react';
 
 function About(props){
     return (
         <section id="about">
 
-            <h2>About Me</h2>   
+               
 
             <div className="about_container"> 
-
+                <h2>About Me</h2>
                 <div className='about_me'>
                     <div className='about_me_image'>
-
+                        <img alt="A picture of yours truly"/>
                     </div>
                 </div>
 
@@ -37,8 +38,8 @@ function About(props){
                                 </ul>
                             </small>
                         </article>
-
-                        <div>
+                    </div>
+                    <div className='about_text'> 
                             <p>
                                 I'm a recent Computer Science graduate from the University of Pittsburgh.
                                 I am a hard-working, determined Developer looking for an entry-level position where I can 
@@ -47,8 +48,6 @@ function About(props){
                                 I am very excited to begin my professional career in the industry. I am known to be a reliable and capable team member,
                                 as well as a fast learner who is always ready to face a new challenge. 
                             </p>
-                        </div>
-
                     </div>
                 </div>
 
