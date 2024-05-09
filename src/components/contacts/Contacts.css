@@ -1,0 +1,7 @@
+@import '/src/data/styles.css';
+
+#contacts h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+}

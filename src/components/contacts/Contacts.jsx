@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Contacts.css";
 // import { useState } from 'react';
 
 function Contacts(props){

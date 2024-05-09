@@ -6,7 +6,7 @@ function Header(props){
     return (
         <header id="home">
             <div>
-                <h1>Header</h1>
+                <h1>Cerina Wichryk</h1>
             </div>
         </header>
     );

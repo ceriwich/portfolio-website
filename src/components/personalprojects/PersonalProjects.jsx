@@ -1,4 +1,5 @@
 import React from 'react';
+import "./PersonalProjects.css"
 // import { useState } from 'react';
 
 function PersonalProjects(props){

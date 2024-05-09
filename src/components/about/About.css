@@ -10,13 +10,19 @@ section h2{
     margin-top: auto;
     margin-bottom:5%;
 }
+img{
+    width: 40%;
+    height:40%;
+    border-radius: 10%;
+}
+
 article{
     float:left;
     width:50%;
     margin-bottom:5%;
 }
 .about_me_image{
-    margin-bottom:20%;
+    margin-bottom:5%;
 }
 .about_container{
     text-align: center;
@@ -34,4 +40,23 @@ article{
 }
 .about_text{
     width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    img{
+        width: 50%;
+        height:50%;
+        border-radius: 10%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    img{
+        width: 50%;
+        height:50%;
+        border-radius: 10%;
+    }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import myImage from '../../assets/cerina_img.jpg'
 // import { useState } from 'react';
 
 function About(props){
@@ -12,7 +13,7 @@ function About(props){
                 <h2>About Me</h2>
                 <div className='about_me'>
                     <div className='about_me_image'>
-                        <img alt="A picture of yours truly"/>
+                        <img src={myImage} alt="yours truly"/>
                     </div>
                 </div>
 
